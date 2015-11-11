@@ -7,6 +7,7 @@
 //
 
 #import "WHClassA.h"
+#import "WHClassA_classAExtension.h"
 
 static WHClassA *classA = nil;
 
@@ -14,9 +15,17 @@ static WHClassA *classA = nil;
 
 + (WHClassA *)shareManager {
     
-//    dispatch_once(<#dispatch_once_t *predicate#>, <#^(void)block#>)
+    dispatch_once_t onceToken;
     
-    return nil;
+    dispatch_once(&onceToken, ^{
+        classA = [[WHClassA alloc] init];
+    });
+    
+    return classA;
+}
+
+- (void)bark {
+    NSLog(@"add by wheng modify bark");
 }
 
 @end
