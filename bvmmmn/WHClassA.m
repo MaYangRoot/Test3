@@ -17,10 +17,10 @@ static WHClassA *classA = nil;
     
     dispatch_once_t onceToken;
     
-    dispatch_once(&onceToken, ^{
-        classA = [[WHClassA alloc] init];
-    });
-    
+//    dispatch_once(&onceToken, ^{
+//        classA = [[WHClassA alloc] init];
+//    });
+    NSLog(@"666");
     return classA;
 }
 
