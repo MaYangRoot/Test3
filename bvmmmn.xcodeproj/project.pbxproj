@@ -17,6 +17,7 @@
 		BCEAC6FF1BF3644C0033389B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEAC6FE1BF3644C0033389B /* Assets.xcassets */; };
 		BCEAC7021BF3644C0033389B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEAC7001BF3644C0033389B /* LaunchScreen.storyboard */; };
 		BCEAC70D1BF3644C0033389B /* bvmmmnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEAC70C1BF3644C0033389B /* bvmmmnUITests.m */; };
+		BCEAC7191BF365F20033389B /* WHClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEAC7181BF365F20033389B /* WHClassA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		BCEAC7081BF3644C0033389B /* bvmmmnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bvmmmnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEAC70C1BF3644C0033389B /* bvmmmnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bvmmmnUITests.m; sourceTree = "<group>"; };
 		BCEAC70E1BF3644C0033389B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEAC7171BF365F20033389B /* WHClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHClassA.h; sourceTree = "<group>"; };
+		BCEAC7181BF365F20033389B /* WHClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHClassA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +96,13 @@
 				BCEAC6F61BF3644C0033389B /* AppDelegate.m */,
 				BCEAC6F81BF3644C0033389B /* ViewController.h */,
 				BCEAC6F91BF3644C0033389B /* ViewController.m */,
+<<<<<<< HEAD
 				BC0493921BF3662B00722ECC /* bbbbbViewController.h */,
 				BC0493931BF3662B00722ECC /* bbbbbViewController.m */,
+=======
+				BCEAC7171BF365F20033389B /* WHClassA.h */,
+				BCEAC7181BF365F20033389B /* WHClassA.m */,
+>>>>>>> 02e0bd01f621718657d13e6359aa2e5da8ad0be5
 				BCEAC6FB1BF3644C0033389B /* Main.storyboard */,
 				BCEAC6FE1BF3644C0033389B /* Assets.xcassets */,
 				BCEAC7001BF3644C0033389B /* LaunchScreen.storyboard */,
@@ -232,6 +240,7 @@
 				BCEAC6F71BF3644C0033389B /* AppDelegate.m in Sources */,
 				BC4807F31BF365DF0057CD74 /* afdssdfaViewController.m in Sources */,
 				BCEAC6F41BF3644C0033389B /* main.m in Sources */,
+				BCEAC7191BF365F20033389B /* WHClassA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
