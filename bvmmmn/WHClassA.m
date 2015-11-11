@@ -16,7 +16,7 @@ static WHClassA *classA = nil;
 + (WHClassA *)shareManager {
     
     dispatch_once_t onceToken;
-    
+    NSLog(@"%ld", onceToken);
 //    dispatch_once(&onceToken, ^{
 //        classA = [[WHClassA alloc] init];
 //    });
