@@ -7,6 +7,7 @@
 //
 
 #import "afdssdfaViewController.h"
+#import "WHClassA_classAExtension.h"
 
 @interface afdssdfaViewController ()
 
@@ -18,6 +19,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
     // Do any additional setup after loading the view from its nib.
+    [[WHClassA shareManager] bark];
 }
 
 - (void)didReceiveMemoryWarning {
